@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:azure;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+        
+        .text_center{
+          text-align: center;
+        }
+        a {
+      color:gray; 
+        }
+        h1{
+            color:maroon;
+            font-family:"Abel";
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration: solid;
+        }
+        .center_img{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="text_center" >My first Webpage</h1>
+    <h2 class="text_center">Made through a gdsc event</h2>
+    <hr>
+    <ul>
+        
+    <li><a href="https://www.google.com/search?q=google+in+1998&rlz=1C1ONGR_enIN1064IN1064&oq=goo&gs_lcrp=EgZjaHJvbWUqCwgAEEUYJxg7GIoFMgsIABBFGCcYOxiKBTIGCAEQRRg5MgkIAhAjGCcYigUyEwgDEC4YgwEYxwEYsQMY0QMYgAQyBggEEEUYQTIGCAUQRRhBMgYIBhBFGD0yBggHEEUYPNIBCDQ0NTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">Take me to google in 1998</a></li>
+    <li><a href="https://www.google.com/" target="_blank">Take me to Google</a></li>
+    <li><a href="https://www.pexels.com/" target="_blank">Take me to Pexels</a></li>
+    <li><a href="#form">Go to form</a></li>
+    <li><a href="#table">Go to table</a></li>
+    </ul>
+    <div class="center_img">
+    <img src="./pexels-oliver-sjöström-1433052.jpg"height=500 alt="Beach">
+    </div>
+    <br><br>
+    <table style="border-spacing: 20px"id="table">
+        <tr>
+          <th>S.no</th>
+          <th>Name</th>
+          <th>Data</th>
+        </tr>
+        <tr>
+          <td>1.</td>
+          <td>qwe</td>
+          <td>rty</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>asd</td> 
+          <td>fgh</td>
+        </tr>
+    </table><br><br>
+    <div class="center_img">
+        <img src="./pexels-king-ho-18098210.jpg"height=500 alt="Random pic">
+    </div><br>
+    <form action="mailto:saxena.anpr@gmail.com" method="post" id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="user">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+  
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="subscribe">Subscribe to our newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+        <button>Submit</button>
+
+    </form><br><br>
+    <a href="./About.html">About Me</a><br><br>
+    
+</body>
+</html>
